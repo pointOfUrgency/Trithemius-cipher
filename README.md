@@ -52,8 +52,8 @@ How it works
 
 Example
 
-    Enter the key: KEY
-    Enter the phrase: HELLO, WORLD!
+    Enter the key: КЛЮЧ
+    Enter the phrase: ПРИВЕТ, МИР!
     Get the encrypted text and its decryption.
 
 Running the Program
