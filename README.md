@@ -32,7 +32,7 @@ Decrypted: ПРИВЕТМИР
     Программа написана на языке C#.
     В качестве алгоритма используется модификация шифра Цезаря, где сдвиг зависит от символов ключа.
 
-README for "Encryptor and Decryptor" Project
+
 Description
 
 This project is a program for encrypting and decrypting data using an algorithm based on key repetition and character shifting in a specified alphabet. It allows the user to input a key and a phrase, then encrypt and decrypt the message using an algorithm that combines concepts of a simple Caesar cipher and repeated key.
