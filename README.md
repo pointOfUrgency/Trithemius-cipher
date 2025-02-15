@@ -1,68 +1,65 @@
+Программа для шифрования и дешифрования текста
+
+Этот проект представляет собой программу для шифрования и дешифрования текста, использующую алгоритм, основанный на ключе. Программа поддерживает только русский алфавит и несколько знаков препинания.
 Описание
 
-Этот проект представляет собой программу для шифрования и дешифрования данных с использованием алгоритма, основанного на повторении ключа и сдвиге символов в заданном алфавите. Он предоставляет возможность вводить ключ и фразу, после чего шифровать и расшифровывать сообщение, используя алгоритм, который сочетает в себе концепции простого шифра Цезаря и повторяющегося ключа.
-Возможности
+Программа позволяет пользователю ввести текст и ключ для шифрования, а затем расшифровать его с помощью того же ключа. Шифрование и дешифрование происходят с использованием метода, который работает с каждым символом текста и ключа, сдвигая их в алфавите.
 
-    Шифрование: Программа шифрует введенную фразу, используя заданный ключ. Алгоритм сдвигает символы в фразе в зависимости от их положения в алфавите.
-    Дешифровка: Программа может расшифровать зашифрованное сообщение, используя тот же ключ.
+Поддерживаемые символы:
 
-Как использовать
+    Русский алфавит (верхний и нижний регистр)
+    Знаки препинания: ., ,, !, ?, :, ;, -, (), ", ', №, —, …, пробел.
 
-    Введите ключ для шифрования и дешифровки.
-    Введите фразу, которую хотите зашифровать.
-    Программа выведет зашифрованное сообщение.
-    Программа также расшифрует зашифрованную фразу обратно в исходный текст.
+Принцип работы
 
-Пример использования
+    Вводите ключ (буквы будут приведены к верхнему регистру).
+    Вводите фразу для шифрования.
+    Программа шифрует введенную фразу с использованием ключа.
+    Программа также может расшифровать зашифрованный текст с использованием того же ключа.
 
-Type the key: МойКлюч
-Type the phrase: ПриветМир
-Encrypted: ШЯГЙГЮУ
-Decrypted: ПРИВЕТМИР
+Пример
 
-Как работает
+    Введите ключ: КЛЮЧ
+    Введите фразу: ПРИВЕТ, МИР!
+    Получите зашифрованный текст и его дешифровку.
 
-    Ключ повторяется до длины фразы.
-    Для каждого символа фразы вычисляется сдвиг, который определяется позицией символа в алфавите и позицией символа из ключа.
-    Для шифрования и дешифровки используется один и тот же алгоритм, только с разными операциями: при шифровании сдвиг складывается, а при дешифровке вычитается.
+Запуск
 
-Технические детали
+Чтобы запустить программу, достаточно скопировать и вставить код в C# среду или IDE, такую как Visual Studio. После этого выполните программу, и она попросит вас ввести ключ и фразу.
+Требования
 
-    Алфавит включает в себя все русские буквы (как заглавные, так и строчные), а также несколько знаков препинания и специальные символы.
-    Программа написана на языке C#.
-    В качестве алгоритма используется модификация шифра Цезаря, где сдвиг зависит от символов ключа.
+    Среда разработки C# (например, Visual Studio).
+    .NET Framework или .NET Core.
 
+Text Encryption and Decryption Program
 
+This project is a program for encrypting and decrypting text using an algorithm based on a key. The program supports only the Russian alphabet and a few punctuation marks.
 Description
 
-This project is a program for encrypting and decrypting data using an algorithm based on key repetition and character shifting in a specified alphabet. It allows the user to input a key and a phrase, then encrypt and decrypt the message using an algorithm that combines concepts of a simple Caesar cipher and repeated key.
-Features
+The program allows the user to input text and a key for encryption, and then decrypt it using the same key. Encryption and decryption are performed using a method that shifts each character of the text and key within the alphabet.
 
-    Encryption: The program encrypts the entered phrase using the provided key. The algorithm shifts the characters of the phrase based on their position in the alphabet.
-    Decryption: The program can decrypt an encrypted message using the same key.
+Supported characters:
 
-How to Use
+    Russian alphabet (upper and lower case)
+    Punctuation marks: ., ,, !, ?, :, ;, -, (), ", ', №, —, …, space.
 
-    Enter a key for encryption and decryption.
-    Enter the phrase you want to encrypt.
-    The program will output the encrypted message.
-    The program will also decrypt the encrypted phrase back to the original text.
+How it works
 
-Example Usage
+    Enter the key (letters will be converted to uppercase).
+    Enter the phrase for encryption.
+    The program will encrypt the entered phrase using the key.
+    The program will also decrypt the encrypted text using the same key.
 
-Type the key: МойКлюч
-Type the phrase: ПриветМир
-Encrypted: ШЯГЙГЮУ
-Decrypted: ПРИВЕТМИР
+Example
 
-How It Works
+    Enter the key: KEY
+    Enter the phrase: HELLO, WORLD!
+    Get the encrypted text and its decryption.
 
-    The key is repeated until it matches the length of the phrase.
-    For each character in the phrase, the shift is calculated based on the character's position in the alphabet and the position of the character in the key.
-    The same algorithm is used for encryption and decryption, except that the shift is added for encryption and subtracted for decryption.
+Running the Program
 
-Technical Details
+To run the program, simply copy and paste the code into a C# environment or IDE like Visual Studio. Then, execute the program, and it will prompt you to enter a key and phrase.
+Requirements
 
-    The alphabet includes all Russian letters (both uppercase and lowercase), along with some punctuation marks and special characters.
-    The program is written in C#.
-    The algorithm is a variation of the Caesar cipher, where the shift is determined by the characters of the key.
+    C# development environment (e.g., Visual Studio).
+    .NET Framework or .NET Core.
