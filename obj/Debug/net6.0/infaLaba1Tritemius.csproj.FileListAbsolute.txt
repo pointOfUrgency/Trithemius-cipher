@@ -1,0 +1,15 @@
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/bin/Debug/net6.0/infaLaba1Tritemius
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/bin/Debug/net6.0/infaLaba1Tritemius.deps.json
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/bin/Debug/net6.0/infaLaba1Tritemius.runtimeconfig.json
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/bin/Debug/net6.0/infaLaba1Tritemius.dll
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/bin/Debug/net6.0/infaLaba1Tritemius.pdb
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.csproj.AssemblyReference.cache
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.GeneratedMSBuildEditorConfig.editorconfig
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.AssemblyInfoInputs.cache
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.AssemblyInfo.cs
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.csproj.CoreCompileInputs.cache
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.dll
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/refint/infaLaba1Tritemius.dll
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.pdb
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/infaLaba1Tritemius.genruntimeconfig.cache
+/home/kali/Documents/cs/practiceC#/infaLaba1Tritemius/obj/Debug/net6.0/ref/infaLaba1Tritemius.dll
